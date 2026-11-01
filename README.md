@@ -33,7 +33,7 @@ Outputs land in `outputs/`: `SUMMARY.md`, `parking.db` (open it in DB Browser fo
    - `overflow_summary.sql` ranks lots by how often and how badly they overflow.
 5. **Simulate the pilot**: move 0–40% of early commuter permits, re-run the same SQL each time, and pick the smallest share that gets overflow under 5% of days.
 
-## Interview talking points
+## Design decisions
 
 - **Why a time grid instead of counting scans?** Scans tell you arrivals. Occupancy needs arrivals *and* departures, so each slot counts cars where entry ≤ slot < exit.
 - **Why the 90th-percentile band?** Average days look fine for Lot D. Bad days are what students complain about.

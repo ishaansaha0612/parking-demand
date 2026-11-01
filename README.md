@@ -1,6 +1,6 @@
 # Campus parking demand analysis
 
-> **Sample project.** Built to match the fictional "Jordan Patel" resume. All scan data is synthetic.
+> **Personal project.** All parking scan data is synthetic.
 
 Uses a semester of permit gate scans to find which campus lots overflow, when, and the smallest policy change that fixes it.
 
